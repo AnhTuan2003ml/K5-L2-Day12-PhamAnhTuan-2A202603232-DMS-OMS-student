@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Ảnh xám mô phỏng làm mất màu da và quần áo; vùng cabin tối hơn ảnh RGB,person,face,Hình thể vẫn nhận biết được; thuộc tính mặt ít chắc chắn hơn.
+S04_ir,IR_sim,Màu đỏ của restraint chuyển thành xám; đường viền, tay cầm và hoa văn vẫn còn,child_seat,infant_seat,seat,Phân biệt carrier và ghế lớn theo cấu trúc hình dáng; màu vật liệu không còn dùng được.
+S07_ir,IR_sim,Màu nâu của thùng carton mất nhưng cạnh và khối hộp vẫn hiện rõ,object.type,Loại box vẫn nhận biết được từ hình khối; màu/chất liệu không xác định được.
+D01,real_IR,Phản xạ NIR trên kính làm giảm khả năng nhìn rõ hai mắt,eye_left,eye_right,face13,Trạng thái mắt được ghi unknown; các điểm mắt được đánh dấu occluded.
+D03,real_IR,Tương phản mặt thấp và chai nước che vùng miệng,face,face13,phone,Điểm miệng/môi bị che; chai được phân biệt với điện thoại qua hình dạng.
+D06,real_IR,Vùng mặt tối và kính làm giảm độ rõ một mắt,eye_left,eye_right,glasses,face13,Mắt trái giữ unknown, mắt phải ghi open khi nhìn thấy; kính được nhận diện là clear.
