@@ -15,4 +15,8 @@ Tôi để seatbelt=unknown ở một số khung có dây nhìn thấy được,
 
 ## 3. Kết quả đối chiếu với Nguyen Thanh Phong
 
-Tôi đối chiếu 56 dòng trong disagreement_log.csv với export và disagreement_log của Phong. Tôi áp dụng các kết luận có căn cứ như mắt unknown/occluded ở D01, bỏ face S02, seatbelt unknown ở S02_ir và phân loại carrier S04. Tôi không thêm infant_seat ở S03/S05 vì GUIDE định nghĩa lớp này cho ghế em bé trống; ảnh đang có occupant. Các ca trẻ em ở S01/S05/S08, kính D04 và box tay D04/D06 được giữ ở trạng thái mơ hồ để coach xác nhận.
+Tôi đối chiếu 56 dòng ban đầu trong disagreement_log.csv với export và disagreement_log của Phong. Sau khi sửa các điểm đã xác minh, diff mới còn 53 khác biệt dạng máy tính; các điểm này không được xem đồng loạt là lỗi. Trong log của tôi, 35 dòng theo annotation hiện tại và GUIDE, 3 dòng theo kết luận peer, 18 dòng ambiguous chờ coach. Tôi bỏ face S02, đặt seatbelt S02_ir thành unknown, và giữ infant_seat S03/S05 ngoài nhãn vì các ghế đang có occupant.
+
+## Tài liệu tôi gửi để QC chéo
+
+Tôi gửi export_final.zip và disagreement_log.csv. Export là annotation của tôi; log ghi bất đồng cùng verdict và căn cứ. Gói nộp LMS là K5-L2-DAY12-PhamAnhTuan-2A202603232-DMSOMS.zip.
